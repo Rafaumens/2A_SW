@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara Dinâmica em PHP</title>
+</head>
+<body>
+
+    <h1 style="text-align:center"> Bhaskara Dinâmica em PHP </h1>
+
+    <p> Neste site, você será capaz de ver o resultado de uma Equação de Segundo Grau de sua escolha. </p>
+    <p> Portanto, digite abaixo os coeficientes da Equação escolhida. </p>
+
+    <!-- Atraves da tag form, conseguimos possibilitar a interatividade com o Usuário -->
+    
+    <form action="bhaskara_dinamica.php" method="POST"> 
+
+        <label for="coefA">Coeficiente A </label> <br>
+        <input type="text" name="termoA" value=""> <br>
+
+        <label for="coefA">Coeficiente B </label> <br>
+        <input type="text" name="termoB" value=""> <br>
+
+        <label for="coefA">Coeficiente C </label> <br>
+        <input type="text" name="termoC" value="">
+
+        <input type="submit" name="enviar">
+
+
+    </form>
+
+    <p> <b>*OBS: Equação teste: x<sup>2</sup>* + 12 - 13.*</b> </p>
+
+    <p>Desenvolvedor: Rafael Augusto Mendes da Silva - 2° ano Informática para Web.</p>
+    
+</body>
+</html>
